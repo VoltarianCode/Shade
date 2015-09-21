@@ -1,13 +1,11 @@
 package com.example.illya.shade;
 
+import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+
 
 public class SettingsActivity extends PreferenceActivity
         implements Preference.OnPreferenceChangeListener {
